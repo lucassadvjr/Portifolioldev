@@ -1,3 +1,4 @@
+/*
 <?php
 header('Content-Type: application/json; charset=utf-8');
 
@@ -22,3 +23,4 @@ echo json_encode([
     'horas_atividade' => 6,
     'horas_pratica' => 532
 ]);
+*/
