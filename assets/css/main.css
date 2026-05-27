@@ -834,6 +834,19 @@ section,
   transition: 0.3s;
 }
 
+.portfolio-item .portfolio-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-content img {
+  width: 100%;
+  height: 260px; /* força padrão */
+  object-fit: cover;
+  border-radius: 8px;
+}
+
 .portfolio .portfolio-content .portfolio-info {
   opacity: 0;
   position: absolute;
